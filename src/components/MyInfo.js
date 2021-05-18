@@ -3,8 +3,8 @@ import React from 'react'
 function MyInfo() {
   return (
     <div>
-      <h1>Andrew Campbell</h1>
-      <p>Andrew is a HUMANOID that Steph loves</p>
+      <h2>Andrew Campbell</h2>
+      <p>Places to Visit</p>
       <ul>
         <li>Scotland</li>
         <li>Vietnam</li>
