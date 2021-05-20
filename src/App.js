@@ -1,14 +1,16 @@
 import './App.css';
-import Navbar from './components/Navbar'
-import MainContent from './components/MainContent'
-import Footer from './components/Footer'
+import ToDoItem from './components/ToDoItem';
+import toDoData from './toDoData';
 
 function App() {
+
+  const toDoList = toDoData.map(item => {
+    return <ToDoItem key={item.id} text={item.text} completed={item.completed} /> 
+  })
+
   return (
     <div className="App">
-      <Navbar />
-      <MainContent />
-      <Footer />
+      {toDoList}
     </div>
   );
 }

@@ -1,9 +1,14 @@
 .App {
   text-align: center;
+  margin: 0 auto;
 }
 
 h1 {
   color: darkgoldenrod;
 }
 
-
+.checkFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
