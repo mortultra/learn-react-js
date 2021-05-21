@@ -10,15 +10,16 @@ class App extends Component {
 
   render() {
     let userLogIn
+    
     const checking = () => {
       if (this.state.loggedIn === true) {
         userLogIn = "out"
       } else {
         userLogIn = "in"
       }
-    }
+    };
 
-    checking()
+    checking();
 
     return (
       <div>
