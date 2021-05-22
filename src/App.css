@@ -12,3 +12,9 @@ h1 {
   flex-direction: row;
   justify-content: center;
 }
+
+.box {
+  width: 200px;
+  height: 120px;
+  background-color: darkolivegreen;
+}
